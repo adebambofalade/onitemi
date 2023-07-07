@@ -1,9 +1,33 @@
+body,html{
+    padding:0;
+    margin:0;
+}
+
 h1{
     font-size: 60px;
     color:#A27038 ;
+    font-family: 'Playfair Display', serif;
 }
 
 p{
     font-size: 20px;
-    color:#54341E
+    color:#54341E;
+    margin-bottom: 60px;
+font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration:none;
+    border: .7px solid #A27038;
+    padding: 16px 26px;
+    border-radius: 10%;
+font-family: 'Raleway', sans-serif;
+background-color: #a87350;
+color: #fff;
+    
+}
+
+a:hover{
+    background-color: #54341E;
+    color: #fff;
 }
